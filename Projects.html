@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+/* My projects style */
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+.portfolio-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #333;
+}
+
+/* Grid Layout for Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Project Card Styling */
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+/* Image Styling for Project Thumbnails */
+.project img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Project Title Styling */
+.project h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+/* Project Description Text Styling */
+.project p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Button Styling for Project Links */
+.project a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project">
+            <img src="images/website1.jpg" alt="Website 1">
+            <h3>Website 1</h3>
+            <p>Kani Waa Website dhamaystiran Oo leh Domain kaliya malahan hosting .</p>
+            <a href="https://www.sompreset.com/" target="_blank">View Website</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <img src="images/website2.jpg" alt="Website 2">
+            <h3>Website 2</h3>
+            <p>Kani Malahan wax Domain iyo hosting Lkn Posts Badan ayaa Kujira</p>
+            <a href="https://abdirizakpresetss.blogspot.com/" target="_blank">View Website</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project">
+            <img src="images/website3.jpg" alt="Website 3">
+            <h3>Website 3</h3>
+            <p>Kani Wuu Dhamaystiran yahay Domain Iyo hosting Wuu Leeyahay Waana Website Kumanan Arday Kuxiran tahay.</p>
+            <a href="https://sahalsoftware.com/" target="_blank">View Website</a>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
